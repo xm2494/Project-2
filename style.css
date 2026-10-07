@@ -84,8 +84,6 @@ main {
 
     align-items: center;
     justify-content: center;
-
-    gap: 15px
 }
 
 
@@ -105,11 +103,10 @@ main {
 
     display: flex;
     flex-direction: row;
+    row-gap: 15px;
 
     align-items: center;
     justify-content: space-around;
-
-    gap: 15px
 }
 
 
@@ -139,9 +136,8 @@ main {
     border: 2px solid black;
 
     display: flex;
+    row-gap: 15px;
 
     align-items: center;
     justify-content: center;
-
-    gap: 15px
 }
