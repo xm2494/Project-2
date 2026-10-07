@@ -1,0 +1,124 @@
+html, body {
+    margin: 0;
+}
+
+
+main {
+    background-color: white;
+}
+
+
+/* PANEL 1 */
+
+.panel1 {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+.panel1 img {
+    width: 100px;
+}
+
+
+/* FALLING BOOK */
+
+.falling {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+.falling img {
+    width: 150px;
+}
+
+
+.falling p {
+    font-size: 30px;
+}
+
+
+/* HORIZONTAL PART */
+
+.sideScroll {
+    display: flex;
+    flex-direction: row;
+
+    overflow-x: scroll;
+}
+
+
+/* PANEL 2 */
+
+.panel2 {
+    min-width: 40vw;
+    height: 70vh;
+
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+.panel2 img {
+    width: 200px;
+}
+
+
+/* PANEL 3 */
+
+.panel3 {
+    min-width: 90vw;
+    height: 70vh;
+
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.panel3 div {
+    border: 2px solid black;
+
+    width: 100px;
+    height: 150px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* PANEL 4 */
+
+.panel4 {
+    min-width: 90vw;
+    height: 70vh;
+
+    border: 2px solid black;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
