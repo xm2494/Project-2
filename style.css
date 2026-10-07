@@ -7,6 +7,7 @@ main {
     background-color: white;
 }
 
+/*Adding some borders to images to see if it helps, if not I'll remove the .jpgs for now.*/
 
 /* PANEL 1 */
 
@@ -23,6 +24,7 @@ main {
 
 .panel1 img {
     width: 100px;
+    border: 2px solid black
 }
 
 
@@ -41,6 +43,7 @@ main {
 
 .falling img {
     width: 150px;
+    border: 2px solid black
 }
 
 
@@ -77,6 +80,7 @@ main {
 
 .panel2 img {
     width: 200px;
+    border: 2px solid black
 }
 
 
