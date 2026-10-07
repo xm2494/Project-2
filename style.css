@@ -7,12 +7,10 @@ main {
     background-color: white;
 }
 
-/*Adding some borders to images to see if it helps, if not I'll remove the .jpgs for now.*/
 
-/* PANEL 1 */
 
 .panel1 {
-    /*Adjusting panel position(?)*/
+  
     position: relative;
     left: 0;
     top: 15;
@@ -33,7 +31,7 @@ main {
 }
 
 
-/* FALLING BOOK */
+
 
 .falling {
     height: 100vh;
@@ -57,7 +55,7 @@ main {
 }
 
 
-/* HORIZONTAL PART */
+
 
 .sideScroll {
     display: flex;
@@ -67,7 +65,6 @@ main {
 }
 
 
-/* PANEL 2 */
 
 .panel2 {
     position: relative;
@@ -91,7 +88,6 @@ main {
 }
 
 
-/* PANEL 3 */
 
 .panel3 {
     min-width: 90vw;
