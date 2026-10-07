@@ -71,8 +71,6 @@ main {
 
 .panel2 {
     position: relative;
-    left: 0;
-    top: 15;
     
     min-width: 40vw;
     height: 70vh;
