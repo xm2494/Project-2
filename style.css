@@ -10,11 +10,6 @@ main {
 
 
 .panel1 {
-  
-    position: relative;
-    left: 0;
-    top: 15;
-        
     height: 100vh;
 
     display: flex;
