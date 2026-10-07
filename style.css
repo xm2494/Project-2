@@ -75,6 +75,8 @@ main {
 
     align-items: center;
     justify-content: center;
+
+    gap: 15px
 }
 
 
@@ -97,6 +99,8 @@ main {
 
     align-items: center;
     justify-content: space-around;
+
+    gap: 15px
 }
 
 
@@ -129,4 +133,6 @@ main {
 
     align-items: center;
     justify-content: center;
+
+    gap: 15px
 }
