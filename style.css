@@ -17,8 +17,8 @@ main {
     display: flex;
     flex-direction: column;
 
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
 }
 
 
@@ -36,8 +36,8 @@ main {
     display: flex;
     flex-direction: column;
 
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
 }
 
 
@@ -112,6 +112,10 @@ main {
     justify-content: center;
 }
 
+.panel3 img {
+    width: 200px;
+    border: 2px solid black /*Adding a border usually solves rendering problems.*/
+}
 
 /* PANEL 4 */
 
