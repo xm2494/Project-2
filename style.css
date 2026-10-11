@@ -119,13 +119,15 @@ main {
 /* PANEL 4 */
 
 .panel4 {
-    min-width: 90vw;
+    position: relative;
+    
+    min-width: 40vw;
     height: 70vh;
 
     border: 2px solid black;
 
     display: flex;
-    row-gap: 15px;
+    flex-direction: column;
 
     align-items: center;
     justify-content: center;
@@ -133,30 +135,31 @@ main {
 
 .panel5 {
 /*Panel 5 CSS margins.*/
-    min-width: 90vw;
+    position: relative;
+    
+    min-width: 40vw;
     height: 70vh;
 
     border: 2px solid black;
 
     display: flex;
-    flex-direction: row;
-    row-gap: 15px;
+    flex-direction: column;
 
     align-items: center;
-    justify-content: space-around;
-}
+    justify-content: center;
 
 .panel6 {
     /*Panel 6 CSS margins.*/
-    min-width: 90vw;
+    position: relative;
+    
+    min-width: 40vw;
     height: 70vh;
 
     border: 2px solid black;
 
     display: flex;
-    flex-direction: row;
-    row-gap: 15px;
+    flex-direction: column;
 
     align-items: center;
-    justify-content: space-around;    
+    justify-content: center;
 }
