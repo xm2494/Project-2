@@ -3,56 +3,160 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
-    <title>Project 2</title>
+
+    <title>Out of Bounds</title>
 </head>
 
 <body>
 
+    <div class="navigationGuide">
+        <span>READ</span>
+        <strong>↓ ↓ → → → →</strong>
+    </div>
+
     <main>
 
-        <section class="panel1">
-            <img src="panel1.jpg">
+        <!-- PANEL 1 -->
+        <section class="panel verticalPanel panel1">
+
+            <img src="panel1.jpg" class="panelImage">
+
+            <div class="comicCaption captionTop">
+                <p>A normal library...</p>
+            </div>
+
+            <button class="comicButton" id="startButton">
+                Follow the book ↓
+            </button>
+
         </section>
 
 
-        <section class="falling">
-            <img src="falling.png">    
+        <!-- FALLING -->
+        <section class="panel verticalPanel fallingPanel" id="fallingPanel">
+
+            <img src="falling.png" class="panelImage">
+
+            <div class="fallingText">
+                <span>F</span>
+                <span>A</span>
+                <span>L</span>
+                <span>L</span>
+                <span>I</span>
+                <span>N</span>
+                <span>G</span>
+            </div>
+
+            <button class="comicButton yellowButton" id="continueButton">
+                Keep going ↓
+            </button>
+
         </section>
 
 
-        <div class="sideScroll">
+        <!-- HORIZONTAL PART -->
+        <div class="sideScroll" id="sideScroll">
 
-            <section class="panel2">
-                <img src="thud.png">
+
+            <!-- PANEL 2 -->
+            <section class="panel horizontalPanel panel2">
+
+                <img src="thud.png" class="panelImage">
+
+                <div class="soundEffect">
+                    THUD!
+                </div>
+
+                <div class="comicCaption captionBottom">
+                    <p>The book opens...</p>
+                </div>
+
             </section>
 
 
-            <section class="panel3">
-            <!--This is the third panel where the characters slip out-->
-                <img src="panel3.png">
+            <!-- PANEL 3 -->
+            <section class="panel horizontalPanel panel3">
+
+                <img src="panel3.png" class="panelImage">
+
+                <div class="comicCaption captionTop">
+                    <p>Are we finally out?</p>
+                </div>
+
+                <button class="comicButton pinkButton" id="freeButton">
+                    Step outside
+                </button>
+
+                <div class="speechReveal" id="freeMessage">
+                    WE'RE FREE!
+                </div>
+
             </section>
 
 
-            <section class="panel4">
-                    <!---Panel 4 is in this image-->
-                    <img src="tablechair.png">  
+            <!-- PANEL 4 -->
+            <section class="panel horizontalPanel panel4">
+
+                <img src="tablechair.png" class="panelImage">
+
+                <div class="comicCaption captionTop">
+                    <p>Everything here has another side?</p>
+                </div>
+
+                <div class="hoverInstruction">
+                    Move your mouse around
+                </div>
+
+                <div class="objectLabel tableLabel">TABLE?</div>
+                <div class="objectLabel chairLabel">CHAIR?</div>
+                <div class="objectLabel depthLabel">DEPTH?</div>
+
             </section>
 
-            <section class="panel5">
-                <!---Panel 5 is in the image-->
-                <img src="panel5.png">
+
+            <!-- PANEL 5 -->
+            <section class="panel horizontalPanel panel5">
+
+                <img src="panel5.png" class="panelImage">
+
+                <div class="comicCaption captionTop">
+                    <p>Our whole world was only in there...</p>
+                </div>
+
+                <div class="floatingQuestion question1">?</div>
+                <div class="floatingQuestion question2">?</div>
+
             </section>
 
-            <section class="panel6">
-                <!---panel 6 is in the image6-->
-                <img src="panel6.png">
+
+            <!-- PANEL 6 -->
+            <section class="panel horizontalPanel panel6">
+
+                <img src="panel6.png" class="panelImage">
+
+                <div class="comicCaption captionTop">
+                    <p>And for the first time, no narrator controlled them.</p>
+                </div>
+
+                <button class="comicButton blueButton" id="endingButton">
+                    Finish the story
+                </button>
+
+                <div class="endingReveal" id="endingReveal">
+                    <h1>OUT OF BOUNDS</h1>
+                    <p>They escaped the page.</p>
+                </div>
+
             </section>
 
         </div>
 
     </main>
+
+    <script src="index.js"></script>
 
 </body>
 
