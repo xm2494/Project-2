@@ -22,7 +22,6 @@ main {
 
 .panel1 img {
     width: 100px;
-    border: 2px solid black
 }
 
 
@@ -41,7 +40,6 @@ main {
 
 .falling img {
     width: 150px;
-    border: 2px solid black
 }
 
 
@@ -67,7 +65,6 @@ main {
     min-width: 40vw;
     height: 70vh;
 
-    border: 2px solid black;
 
     display: flex;
     flex-direction: column;
@@ -79,7 +76,6 @@ main {
 
 .panel2 img {
     width: 200px;
-    border: 2px solid black
 }
 
 
@@ -88,7 +84,6 @@ main {
     min-width: 90vw;
     height: 70vh;
 
-    border: 2px solid black;
 
     display: flex;
     flex-direction: row;
@@ -100,7 +95,6 @@ main {
 
 
 .panel3 div {
-    border: 2px solid black;
 
     width: 100px;
     height: 150px;
@@ -113,7 +107,6 @@ main {
 
 .panel3 img {
     width: 200px;
-    border: 2px solid black /*Adding a border usually solves rendering problems.*/
 }
 
 /* PANEL 4 */
@@ -123,8 +116,6 @@ main {
     
     min-width: 40vw;
     height: 70vh;
-
-    border: 2px solid black;
 
     display: flex;
     flex-direction: row;
@@ -140,7 +131,6 @@ main {
     min-width: 40vw;
     height: 70vh;
 
-    border: 2px solid black;
 
     display: flex;
     flex-direction: row;
@@ -155,7 +145,6 @@ main {
     min-width: 40vw;
     height: 70vh;
 
-    border: 2px solid black;
 
     display: flex;
     flex-direction: row;
